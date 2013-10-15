@@ -1,5 +1,5 @@
-require	'minitest/autorun'
-#require_relative ''
+require 'minitest/autorun'
+require_relative 'account_number'
 class AccountNumberTest < Minitest::Test 
   def test_split_into_number 
     array = [" _  _  _  _  _  _  _  _  _ ",
